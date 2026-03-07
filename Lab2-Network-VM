@@ -1,1 +1,71 @@
+# Lab 2 – Azure Virtual Network and Virtual Machine Deployment
+
+## Overview
+
+This lab demonstrates deployment of cloud infrastructure within Microsoft Azure including networking, subnet segmentation, and virtual machine provisioning.
+
+The environment simulates a typical enterprise cloud architecture.
+
+---
+
+## Infrastructure Architecture
+
+Virtual Network Address Space:
+
+10.0.0.0/16
+
+Subnets:
+
+| Subnet      | Address Range |
+| ----------- | ------------- |
+| WebSubnet   | 10.0.1.0/24   |
+| AdminSubnet | 10.0.2.0/24   |
+
+---
+
+## Virtual Network Deployment
+
+A Virtual Network was created to isolate cloud resources and enable network segmentation.
+
+### Screenshot – Virtual Network
+
+
+---
+
+## Network Security Group
+
+A Network Security Group was configured to control inbound traffic to the VM.
+
+Inbound rule created:
+
+* Allow RDP (3389)
+* Source restricted to administrator IP
+
+### Screenshot – NSG Rules
+
+
+---
+
+## Virtual Machine Deployment
+
+A Windows Server virtual machine was deployed in the AdminSubnet.
+
+VM Configuration:
+
+* Image: Windows Server 2022
+* Size: B1s
+* Network: AdminSubnet
+* Secure RDP access
+
+### Screenshot – VM Deployment
+
+
+---
+
+## Skills Demonstrated
+
+* Azure networking architecture
+* subnet segmentation
+* secure VM deployment
+* network access control
 
