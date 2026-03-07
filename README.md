@@ -1,2 +1,126 @@
 # Azure-Cloud-Labs
 Hands-on Azure cloud administration labs demonstrating identity management, networking, virtual machines, monitoring, and security operations.
+
+# Azure Cloud Administration Labs
+
+## Overview
+
+This repository contains hands-on Microsoft Azure labs focused on cloud infrastructure, identity management, networking, and security monitoring. These labs were completed to strengthen practical cloud administration skills aligned with the Microsoft Certified: Azure Administrator Associate (AZ-104).
+
+The goal of these labs is to simulate real-world enterprise cloud environments while demonstrating secure infrastructure deployment and monitoring.
+
+---
+
+## Technologies Used
+
+* Microsoft Azure
+* Microsoft Entra ID
+* Azure Virtual Machines
+* Azure Virtual Network
+* Azure Monitor
+* Microsoft Sentinel
+* Windows Server 2022
+
+---
+
+# Lab 1 – Azure Identity & Access Management
+
+## Objective
+
+Configure secure identity management using Microsoft Entra ID with users, groups, and role-based access control.
+
+## Key Tasks
+
+* Created Azure users and security groups
+* Implemented RBAC roles
+* Enabled identity protection with security defaults (MFA)
+
+## Skills Demonstrated
+
+* Identity administration
+* Role-Based Access Control
+* Azure tenant security
+
+---
+
+# Lab 2 – Azure Virtual Network and Virtual Machine
+
+## Objective
+
+Deploy a cloud infrastructure environment with networking and a Windows Server virtual machine.
+
+## Key Tasks
+
+* Created a Resource Group
+* Designed Azure Virtual Network with segmented subnets
+* Configured Network Security Group rules
+* Deployed Windows Server 2022 VM
+* Secured RDP access
+
+## Network Architecture
+
+Virtual Network: 10.0.0.0/16
+
+Subnets:
+
+* WebSubnet (10.0.1.0/24)
+* AdminSubnet (10.0.2.0/24)
+
+## Skills Demonstrated
+
+* Cloud networking
+* VM deployment
+* Secure infrastructure design
+
+
+---
+
+# Lab 3 – Cloud Monitoring and Security (Sentinel)
+
+## Objective
+
+Implement centralized monitoring and security analytics using Azure Monitor and Microsoft Sentinel.
+
+## Key Tasks
+
+* Created Log Analytics workspace
+* Connected Azure Virtual Machine to logging
+* Queried logs using KQL
+* Enabled Microsoft Sentinel
+* Created an analytics detection rule
+
+Example query used:
+
+```
+Heartbeat
+| take 10
+```
+
+## Skills Demonstrated
+
+* Cloud monitoring
+* Log analytics
+* Security event detection
+* SIEM configuration
+
+---
+
+# Skills Demonstrated
+
+* Azure infrastructure deployment
+* Cloud security monitoring
+* Network segmentation
+* Identity and access management
+* Security analytics
+
+---
+
+# Author
+
+Joshua Obisui
+Cybersecurity Graduate | Cloud & Security
+
+Certifications:
+
+* Microsoft Certified: Azure Administrator Associate (AZ-104)
+* CompTIA Security+
