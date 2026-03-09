@@ -51,9 +51,9 @@ Example users created:
 | User            | Role                |
 | --------------- | ------------------- |
 | Joshua          | Administrator       |
-| Aubrey          | IT Support          |
+| Johran          | Administrator       |
 | Dwayne          | IT support          |
-| Johran          | IT support          |
+| Aubrey          | IT support          |
 
 ### Screenshot – Azure Users
 ![image alt](https://github.com/JoshObisui/Azure-Cloud-Labs/blob/af698a40eef9c5ed8947a65d3fb4f9e3519721a0/Lab%201/Lab%201%20Images/AzUsers.png)
