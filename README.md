@@ -50,9 +50,10 @@ Example users created:
 
 | User            | Role                |
 | --------------- | ------------------- |
-| cloudadmin      | Administrator       |
-| securityanalyst | Security monitoring |
-| helpdeskuser    | IT support          |
+| Joshua          | Administrator       |
+| Aubrey          | Security monitoring |
+| Dwayne          | IT support          |
+| Johran          | IT support          |
 
 ### Screenshot – Azure Users
 
