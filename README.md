@@ -141,7 +141,7 @@ A Virtual Network was created to isolate cloud resources and enable network segm
 
 ### Screenshot – Virtual Network
 
-![Virtual Network](../images/lab2-vnet.png)
+![image alt](https://github.com/JoshObisui/Azure-Cloud-Labs/blob/e72a18ec7f6be5dc99eb1f32c45e109d29e644c5/Lab2/AzVnets.png)
 
 ---
 
