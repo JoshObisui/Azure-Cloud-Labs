@@ -271,5 +271,7 @@ Cybersecurity Graduate | Cloud & Security
 
 Certifications:
 
-* Microsoft Certified: Azure Administrator Associate (AZ-104)
-* CompTIA Security+
+*CompTIA Security+
+* Microsoft Certified: Azure Administrator Associate (AZ-104) 
+* Microsoft Azure Fundamentals (AZ900)
+* Microsoft Security, Compliance, Identity Fundamentals (SC900)	
