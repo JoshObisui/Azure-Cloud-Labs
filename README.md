@@ -84,8 +84,8 @@ Example configuration:
 * ITSupport → Reader
 
 ### Screenshot – RBAC Role Assignment
+![image alt](https://github.com/JoshObisui/Azure-Cloud-Labs/blob/71693af3a9c0d3496dff336e20ab89d0c3e35e78/Lab%201/Lab%201%20Images/CloudAdminRBAC.png)
 ![image alt]
-
 
 ---
 
