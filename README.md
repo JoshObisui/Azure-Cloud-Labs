@@ -158,7 +158,7 @@ Inbound rule created:
 
 ### Screenshot – NSG Rules
 
-![Network Security Group](../images/lab2-nsg.png)
+![image alt](https://github.com/JoshObisui/Azure-Cloud-Labs/blob/b0ec46355d8bdc4ce63826cfa5eb985b0b337db4/Lab2/AzNSG.png)
 
 ---
 
