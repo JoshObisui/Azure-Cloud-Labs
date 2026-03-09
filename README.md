@@ -51,7 +51,7 @@ Example users created:
 | User            | Role                |
 | --------------- | ------------------- |
 | Joshua          | Administrator       |
-| Aubrey          | Security monitoring |
+| Aubrey          | IT Support          |
 | Dwayne          | IT support          |
 | Johran          | IT support          |
 
