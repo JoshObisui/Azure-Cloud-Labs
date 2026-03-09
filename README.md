@@ -250,7 +250,7 @@ An analytics rule was created to detect potential failed login attempts.
 
 ### Screenshot – Sentinel Dashboard
 
-![Sentinel Dashboard](../images/lab3-sentinel.png)
+![image alt](https://github.com/JoshObisui/Azure-Cloud-Labs/blob/90a92044aeff5cad3a1cc2257cbfc10b1860ee87/Lab%203/Analytic%20Rule.png)
 
 ---
 
