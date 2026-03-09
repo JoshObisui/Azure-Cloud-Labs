@@ -85,7 +85,7 @@ Example configuration:
 
 ### Screenshot – RBAC Role Assignment
 ![image alt](https://github.com/JoshObisui/Azure-Cloud-Labs/blob/71693af3a9c0d3496dff336e20ab89d0c3e35e78/Lab%201/Lab%201%20Images/CloudAdminRBAC.png)
-![image alt]
+![image alt](https://github.com/JoshObisui/Azure-Cloud-Labs/blob/4d3eecafeee8345c572c6995551fe06eb78e13fa/Lab%201/Lab%201%20Images/ITRBAC.png)
 
 ---
 
