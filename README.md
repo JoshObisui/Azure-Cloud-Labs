@@ -175,7 +175,7 @@ VM Configuration:
 
 ### Screenshot – VM Deployment
 
-![Azure Virtual Machine](../images/lab2-vm.png)
+![image alt](https://github.com/JoshObisui/Azure-Cloud-Labs/blob/60329601f80a26f595cd590440396116b5fb8306/Lab2/VMDeployment1.png)
 
 ---
 
@@ -189,43 +189,78 @@ VM Configuration:
 
 ---
 
-# Lab 3 – Cloud Monitoring and Security (Sentinel)
+# Lab 3 – Azure Monitoring and Security Analytics
 
-## Objective
+## Overview
 
-Implement centralized monitoring and security analytics using Azure Monitor and Microsoft Sentinel.
+This lab focuses on monitoring and security analytics using Azure Monitor, Log Analytics Workspace, and Microsoft Sentinel.
 
-## Key Tasks
+Centralized logging enables organizations to monitor infrastructure health and detect security threats.
 
-* Created Log Analytics workspace
-* Connected Azure Virtual Machine to logging
-* Queried logs using KQL
-* Enabled Microsoft Sentinel
-* Created an analytics detection rule
+---
 
-Example query used:
+## Log Analytics Workspace
 
-```
+A Log Analytics Workspace was created to collect telemetry from Azure resources.
+
+### Screenshot – Log Analytics Workspace
+
+![Log Analytics Workspace](../images/lab3-logworkspace.png)
+
+---
+
+## Connecting VM to Logging
+
+The Azure virtual machine was connected to the workspace using the Azure Monitor Agent.
+
+This enables telemetry collection including:
+
+* system performance
+* security logs
+* resource health
+
+### Screenshot – VM Connected to Logs
+
+![VM Log Connection](../images/lab3-vmconnection.png)
+
+---
+
+## Querying Logs
+
+Logs were queried using Kusto Query Language to verify successful telemetry ingestion.
+
+Example query:
+
+```kql
 Heartbeat
 | take 10
 ```
 
-## Skills Demonstrated
+### Screenshot – Log Query Results
 
-* Cloud monitoring
-* Log analytics
-* Security event detection
-* SIEM configuration
+![Log Query](../images/lab3-query.png)
 
 ---
 
-# Skills Demonstrated
+## Microsoft Sentinel Integration
 
-* Azure infrastructure deployment
-* Cloud security monitoring
-* Network segmentation
-* Identity and access management
-* Security analytics
+Microsoft Sentinel was enabled on the workspace to provide SIEM functionality.
+
+An analytics rule was created to detect potential failed login attempts.
+
+### Screenshot – Sentinel Dashboard
+
+![Sentinel Dashboard](../images/lab3-sentinel.png)
+
+---
+
+## Skills Demonstrated
+
+* centralized cloud monitoring
+* log analytics using KQL
+* security event detection
+* SIEM configuration
+
 
 ---
 
