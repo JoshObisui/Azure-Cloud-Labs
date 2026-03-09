@@ -70,10 +70,9 @@ Groups created:
 * ITSupport
 
 ### Screenshot – Security Groups
-
+![image alt]
 
 ---
-
 ## RBAC Role Assignment
 
 RBAC roles were assigned at the subscription level to enforce least-privilege access.
@@ -84,7 +83,7 @@ Example configuration:
 * ITSupport → Reader
 
 ### Screenshot – RBAC Role Assignment
-
+![image alt]
 
 
 ---
