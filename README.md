@@ -23,24 +23,89 @@ The goal of these labs is to simulate real-world enterprise cloud environments w
 
 ---
 
-# Lab 1 – Azure Identity & Access Management
+# Lab 1 – Azure Identity and Access Management
 
-## Objective
+## Overview
 
-Configure secure identity management using Microsoft Entra ID with users, groups, and role-based access control.
+This lab demonstrates identity administration using Microsoft Entra ID in Microsoft Azure. The objective was to simulate common enterprise identity management tasks including user creation, group management, and role-based access control.
 
-## Key Tasks
+Identity is the core security boundary in cloud environments, and proper configuration of users and permissions ensures secure access to cloud resources.
 
-* Created Azure users and security groups
-* Implemented RBAC roles
-* Enabled identity protection with security defaults (MFA)
+---
+
+## Lab Objectives
+
+* Create Azure users
+* Configure security groups
+* Assign RBAC permissions
+* Enable identity security defaults
+
+---
+
+## User Creation
+
+Users were created in Microsoft Entra ID to simulate an enterprise environment with multiple roles.
+
+Example users created:
+
+| User            | Role                |
+| --------------- | ------------------- |
+| cloudadmin      | Administrator       |
+| securityanalyst | Security monitoring |
+| helpdeskuser    | IT support          |
+
+### Screenshot – Azure Users
+
+
+---
+
+## Security Group Configuration
+
+Security groups were created to logically organize users and simplify role assignment.
+
+Groups created:
+
+* CloudAdmins
+* ITSupport
+
+### Screenshot – Security Groups
+
+
+---
+
+## RBAC Role Assignment
+
+RBAC roles were assigned at the subscription level to enforce least-privilege access.
+
+Example configuration:
+
+* CloudAdmins → Contributor
+* ITSupport → Reader
+
+### Screenshot – RBAC Role Assignment
+
+
+
+---
+
+## Security Implementation
+
+Security defaults were enabled to enforce multi-factor authentication for administrative accounts.
+
+This provides:
+
+* MFA enforcement
+* identity protection
+* secure login policies
+
+---
 
 ## Skills Demonstrated
 
-* Identity administration
-* Role-Based Access Control
-* Azure tenant security
-
+* Azure identity administration
+* RBAC access control
+* security policy enforcement
+* user lifecycle management
 ---
 
 # Lab 2 – Azure Virtual Network and Virtual Machine
