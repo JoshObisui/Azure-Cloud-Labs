@@ -110,34 +110,79 @@ This provides:
 * user lifecycle management
 ---
 
-# Lab 2 – Azure Virtual Network and Virtual Machine
+# Lab 2 – Azure Virtual Network and Virtual Machine Deployment
 
-## Objective
+## Overview
 
-Deploy a cloud infrastructure environment with networking and a Windows Server virtual machine.
+This lab demonstrates deployment of cloud infrastructure within Microsoft Azure including networking, subnet segmentation, and virtual machine provisioning.
 
-## Key Tasks
+The environment simulates a typical enterprise cloud architecture.
 
-* Created a Resource Group
-* Designed Azure Virtual Network with segmented subnets
-* Configured Network Security Group rules
-* Deployed Windows Server 2022 VM
-* Secured RDP access
+---
 
-## Network Architecture
+## Infrastructure Architecture
 
-Virtual Network: 10.0.0.0/16
+Virtual Network Address Space:
+
+10.0.0.0/16
 
 Subnets:
 
-* WebSubnet (10.0.1.0/24)
-* AdminSubnet (10.0.2.0/24)
+| Subnet      | Address Range |
+| ----------- | ------------- |
+| WebSubnet   | 10.0.1.0/24   |
+| AdminSubnet | 10.0.2.0/24   |
+
+---
+
+## Virtual Network Deployment
+
+A Virtual Network was created to isolate cloud resources and enable network segmentation.
+
+### Screenshot – Virtual Network
+
+![Virtual Network](../images/lab2-vnet.png)
+
+---
+
+## Network Security Group
+
+A Network Security Group was configured to control inbound traffic to the VM.
+
+Inbound rule created:
+
+* Allow RDP (3389)
+* Source restricted to administrator IP
+
+### Screenshot – NSG Rules
+
+![Network Security Group](../images/lab2-nsg.png)
+
+---
+
+## Virtual Machine Deployment
+
+A Windows Server virtual machine was deployed in the AdminSubnet.
+
+VM Configuration:
+
+* Image: Windows Server 2022
+* Size: B1s
+* Network: AdminSubnet
+* Secure RDP access
+
+### Screenshot – VM Deployment
+
+![Azure Virtual Machine](../images/lab2-vm.png)
+
+---
 
 ## Skills Demonstrated
 
-* Cloud networking
-* VM deployment
-* Secure infrastructure design
+* Azure networking architecture
+* subnet segmentation
+* secure VM deployment
+* network access control
 
 
 ---
