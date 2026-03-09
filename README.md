@@ -70,8 +70,7 @@ Groups created:
 * ITSupport
 
 ### Screenshot – Security Groups
-![image alt]
-
+![image alt]((https://github.com/JoshObisui/Azure-Cloud-Labs/blob/b1ec00b499f5b206c83b326935744132b2a62e96/Lab%201/Lab%201%20Images/AZGroups.png)
 ---
 ## RBAC Role Assignment
 
