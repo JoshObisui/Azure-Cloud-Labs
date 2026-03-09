@@ -238,7 +238,7 @@ Heartbeat
 
 ### Screenshot – Log Query Results
 
-![Log Query](../images/lab3-query.png)
+![image alt](https://github.com/JoshObisui/Azure-Cloud-Labs/blob/8ad86607120a570f4f0727acde72a4c353f6afed/Lab%203/Cloud%20Heartbeat.png)
 
 ---
 
