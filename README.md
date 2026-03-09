@@ -221,7 +221,7 @@ This enables telemetry collection including:
 
 ### Screenshot – VM Connected to Logs
 
-![VM Log Connection](../images/lab3-vmconnection.png)
+![image alt](https://github.com/JoshObisui/Azure-Cloud-Labs/blob/36f1ddd9edf8fa1fb6e1f10c8f87c7da2739b1b4/Lab%203/Alert%20Rules.png)
 
 ---
 
