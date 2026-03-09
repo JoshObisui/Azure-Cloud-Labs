@@ -205,7 +205,7 @@ A Log Analytics Workspace was created to collect telemetry from Azure resources.
 
 ### Screenshot – Log Analytics Workspace
 
-![Log Analytics Workspace](../images/lab3-logworkspace.png)
+![image alt](https://github.com/JoshObisui/Azure-Cloud-Labs/blob/d231f3ff7e05da1b0713bae6ee28dd2359a7fa8a/Lab%203/Cloud%20Logs.png)
 
 ---
 
